@@ -1,0 +1,28 @@
+/*視窗背景色設定*/
+body{
+    background-color: rgb(39, 135, 224);
+}
+
+/*頁面標題設定*/
+h1{
+   width: 300px;
+    margin: 40px auto;
+    padding: 30px;
+    border: 5px solidrgb(228, 145, 43);
+    background-color: #eebf49;
+    color: #ffffff;
+    font-size: 300%;
+    border-radius: 30%;
+    text-align: center;
+    line-height: 1;
+    box-shadow: 0px 5px 5px rgb(4, 0, 255);
+    text-shadow: 1px 1px 2px #210ce2;
+    background-image: linear-gradient(to bottom, #004997, #caafe4);
+    font-family: 'Noto Serif Traditional Chinese', cursive ;
+
+}
+h2{
+    flex-wrap: wrap;
+    align-content: center;
+    width: 550px;
+}
