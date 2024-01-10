@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+}
+
+header {
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    flex: 1; /* 让header占据flex container中的1/3空间 */
+}
+
+header h1 {
+    margin: 0;
+}
+
+header img {
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+.content {
+    flex: 2; /* 让content占据flex container中的2/3空间 */
+    max-width: 600px;
+    margin: 20px;
+    padding: 20px;
+}
+
+section h2 {
+    color: #3498db;
+}
+
+section p {
+    line-height: 1.6;
+}
+/* 上方超連結*/
+ul{
+    margin: 0px;
+    list-style-type: none;
+}
+
+li{
+    display: inline-block;
+}
+nav{
+    background-color: cadetblue;
+    text-align: right;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+a{
+    color: aliceblue;
+    text-decoration: none;
+    display: inline-block;
+    padding: 20px;
+}
+a:hover{
+    background-color: brown;
+    transition: 0.5s ease-in background-color;
+}
