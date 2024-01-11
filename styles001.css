@@ -65,3 +65,10 @@ a:hover{
     background-color: brown;
     transition: 0.5s ease-in background-color;
 }
+section h3{
+    padding: 10px;
+    
+    border: 2px dotted #000000;
+    border-left:  10px solid #000000;
+    color: rgb(66, 83, 43);
+}
